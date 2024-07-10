@@ -1,0 +1,58 @@
+{
+  "expo": {
+    "name": "FindMe",
+    "slug": "DrawerNavigation",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon1.png",
+    "splash": {
+      "image": "./assets/splash1.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon1.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "permissions": [
+        "ACCESS_BACKGROUND_LOCATION",
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION",
+        "NOTIFICATIONS"
+       
+      ],
+      "package": "com.rideshare.FindMe",
+      "googleServicesFile": "./google-services.json",
+      "useNextNotificationsApi": true,
+      "config" : {
+        "googleMaps" : {
+          "apiKey" : ""
+        }
+      }
+            
+      
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/icon1.png",
+          "color": "#ffffff"
+        }
+      ]
+    ]
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "694541686253",
+    "firebase_url": "https://fir-6597c-default-rtdb.firebaseio.com",
+    "project_id": "fir-6597c",
+    "storage_bucket": "fir-6597c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:694541686253:android:9f971fe0b8e1bbd23243e4",
+        "android_client_info": {
+          "package_name": "com.rideshare.FindMe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "694541686253-nqs8829mkskbr35op3q14e2rk0rtsa3a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rideshare.FindMe",
+            "certificate_hash": "9792843dd8fc829c517bd829fe151a584a33375f"
+          }
+        },
+        {
+          "client_id": "694541686253-gu1ahv6fd8lhb3rh4gkddl8hpig7h0qq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZ3-YbTEDYGW66y8vFUtqSKqGUoZgmLdA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "694541686253-gu1ahv6fd8lhb3rh4gkddl8hpig7h0qq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
