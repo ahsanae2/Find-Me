@@ -5,14 +5,14 @@ import firebase from 'firebase/compat/app';
 import 'firebase/compat/auth';
 import 'firebase/compat/firestore';
 import { getFirestore } from "firebase/firestore";
-
+import {FIREBASE_API_KEY} from '@env';
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 export const firebaseConfig = {
-   apiKey: "AIzaSyCjLqFc9cumHQr4r4O-QJ7e8XHh0MmNHuw",
+   apiKey: FIREBASE_API_KEY,
   authDomain: "demo2-a2faa.firebaseapp.com",
   databaseURL: "https://demo2-a2faa-default-rtdb.firebaseio.com",
   projectId: "demo2-a2faa",
